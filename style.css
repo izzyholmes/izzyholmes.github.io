@@ -1,3 +1,8 @@
+@font-face{
+  font-family: 'Font';
+  src: url();
+}
+    
 body{
   font-family: 'Inconsolata';
   align: center;
