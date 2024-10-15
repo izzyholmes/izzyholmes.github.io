@@ -1,10 +1,10 @@
 @font-face{
-  font-family: 'Font';
-  src: url();
+  font-family: 'NetralStd-Regular';
+  src: url('NeutralStd-Regular.otf');
 }
     
 body{
-  font-family: 'Inconsolata';
-  align: center;
+  font-family: 'NetralStd-Regular', sans-serif;
+  text-align: center;
 }
 
