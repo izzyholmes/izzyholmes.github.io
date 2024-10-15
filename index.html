@@ -15,7 +15,15 @@
     <img src='IzzysBike.jpeg' alt='izzys bike'> 
     <p> this is my bike</p>
     <button type="button" name="button" id="button">Click here!</button>
-    <script src="behavior.js"></script>
+    <!--<script src="behavior.js"></script> -->
+    <script>
+      (function(){
+        const button = document.getElementById('button');
+        button.addEventListener('click', function(){
+          alert("Let's see if this button works");
+        });
+      })();
+    </script>
   </body>
 </html>
 
