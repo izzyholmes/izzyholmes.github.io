@@ -45,6 +45,6 @@ img{
     color: red;
    }
    100% {
-     transform: rotate(45deg);
+     transform: rotate(-190deg);
    }
   }
