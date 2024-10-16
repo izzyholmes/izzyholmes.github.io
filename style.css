@@ -36,12 +36,13 @@ img{
     color: yellow;
    }
   50% {
+    transform: rotate(180deg);
      color: purple;
    }
   75% {
     color: red;
    }
    100% {
-     transform: rotate(360deg);
+     transform: rotate(-180deg);
    }
   }
