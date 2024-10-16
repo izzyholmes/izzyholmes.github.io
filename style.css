@@ -31,6 +31,7 @@ img{
 @keyframes animations{
    0% {
      transform: rotate(-45deg);
+     color: red;
    }
   50% {
     transform: rotate(45deg);
@@ -38,7 +39,7 @@ img{
    }
   100% {
     transform: rotate(-45deg);
-    color: yellow;
+    color: blue;
    }
    /*50% {
     transform: rotate(-30deg);
