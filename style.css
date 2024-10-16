@@ -23,7 +23,7 @@ img{
 .animation{
   margin-top: 10%;
   animation-name: animations;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -36,15 +36,26 @@ img{
     transform: rotate(45deg);
     color: yellow;
    }
-  50% {
+  40% {
     transform: rotate(-45deg);
      color: purple;
    }
-  75% {
+  50% {
     transform: rotate(-135deg);
     color: red;
    }
-   100% {
+   70% {
      transform: rotate(-190deg);
+   }
+   75% {
+     transform: rotate(-135deg);
+   }
+  90% {
+    transform: rotate(-45deg);
+    color: yellow;
+   }
+  100% {
+    transform: rotate(0deg);
+     color: purple;
    }
   }
