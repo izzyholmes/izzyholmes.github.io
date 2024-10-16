@@ -33,11 +33,11 @@ img{
      transform: rotate(0deg);
    }
   25% {
-    transform: rotate(90deg);
+    transform: rotate(45deg);
     color: yellow;
    }
   50% {
-    transform: rotate(-90deg);
+    transform: rotate(-45deg);
      color: purple;
    }
   75% {
@@ -45,6 +45,6 @@ img{
     color: red;
    }
    100% {
-     transform: rotate(90deg);
+     transform: rotate(-135deg);
    }
   }
