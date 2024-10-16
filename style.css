@@ -41,10 +41,10 @@ img{
      color: purple;
    }
   75% {
-    transform: rotate(-90deg);
+    transform: rotate(-135deg);
     color: red;
    }
    100% {
-     transform: rotate(-135deg);
+     transform: rotate(45deg);
    }
   }
