@@ -30,14 +30,21 @@ img{
 
 @keyframes animations{
    0% {
-     transform: rotate(0deg);
+     transform: rotate(15deg);
    }
-  50% {
+  25% {
     transform: rotate(45deg);
     color: yellow;
    }
-  100% {
+   50% {
+    transform: rotate(-30deg);
+     color: purple;
+  75% {
     transform: rotate(-45deg);
+     color: purple;
+   }
+  100% {
+    transform: rotate(15deg);
      color: purple;
    }
  /* 50% {
